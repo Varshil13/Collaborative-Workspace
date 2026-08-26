@@ -1,6 +1,6 @@
-# Trello Clone
+# WorkPulse
 
-A real-time collaborative Kanban board application built with a Turborepo monorepo architecture. Users can create, view, and delete issues across board columns with live synchronization via WebSockets.
+Your workspace, alive and in sync. A real-time collaborative Kanban board built with Turborepo. Create, manage, and track issues across board columns with live synchronization via WebSockets.
 
 ## Tech Stack
 
@@ -15,7 +15,7 @@ A real-time collaborative Kanban board application built with a Turborepo monore
 ## Project Structure
 
 ```
-trello/
+workpulse/
 ├── apps/
 │   ├── frontend/          # React + Vite + Tailwind CSS
 │   │   └── src/App.tsx    # Board UI with real-time WebSocket integration
@@ -54,7 +54,7 @@ trello/
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd trello
+cd workpulse
 
 # Install dependencies
 bun install
@@ -65,7 +65,7 @@ bun install
 Create a `.env` file in the root directory:
 
 ```
-DATABASE_URL=postgresql://user:password@localhost:5432/trello
+DATABASE_URL=postgresql://user:password@localhost:5432/workpulse
 ```
 
 ### Database
