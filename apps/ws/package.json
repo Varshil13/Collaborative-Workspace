@@ -4,14 +4,17 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "ts-node": "^10.9.2"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@types/nodemon": "^3.1.1",
     "@types/ws": "^8.18.1",
-    "ws": "^8.21.3",
-    "db" : "*"
+    "db": "*",
+    "nodemon": "^3.1.14",
+    "ws": "^8.21.3"
   }
 }
