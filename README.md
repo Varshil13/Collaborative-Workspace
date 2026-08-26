@@ -107,6 +107,3 @@ bun run build
 | `bun run check-types` | Run TypeScript type checking across all packages |
 | `bun run format` | Format code with Prettier |
 
-## License
-
-MIT
